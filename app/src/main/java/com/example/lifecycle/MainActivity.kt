@@ -11,6 +11,10 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         val view = binding.root
         setContentView(view)
-        
+
+        val txtUsername = binding.txtUsername
+        val txtPassword = binding.txtPassword
+        val btnLogin = binding.btnLogin
+
     }
 }
